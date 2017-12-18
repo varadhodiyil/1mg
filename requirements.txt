@@ -4,4 +4,6 @@ kafka
 requests==2.11.1
 six==1.10.0
 wheel==0.26.0
-
+djangorestframework
+django-rest-swagger
+django-cors-headers
