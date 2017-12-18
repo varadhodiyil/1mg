@@ -7,3 +7,5 @@ wheel==0.26.0
 djangorestframework
 django-rest-swagger
 django-cors-headers
+avro
+lz4
