@@ -1,0 +1,7 @@
+Django==1.11.1
+oauthlib==1.1.2
+kafka
+requests==2.11.1
+six==1.10.0
+wheel==0.26.0
+

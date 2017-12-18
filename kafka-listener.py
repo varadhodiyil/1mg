@@ -18,7 +18,7 @@ class ClickStreamLog:
 		self.count  = 0
 	
 	def run_spark(self):
-		spark_command="/home/madhan/spark-1.4.0-bin-hadoop2.6/bin/spark-submit --jars $DIVOLTE_SPARK_JAR --driver-class-path $DIVOLTE_SPARK_JAR " + SPARK_SCRIPT_PATH+" "+OUTPUT_FILE_MERGED_AVRO
+		spark_command="/home/ubuntu/spark-1.4.0-bin-hadoop2.6/bin/spark-submit --jars $DIVOLTE_SPARK_JAR --driver-class-path $DIVOLTE_SPARK_JAR " + SPARK_SCRIPT_PATH+" "+OUTPUT_FILE_MERGED_AVRO
 		print subprocess.Popen(spark_command, shell=True, stdout=subprocess.PIPE).stdout.read()
 
 	def collect(self):
